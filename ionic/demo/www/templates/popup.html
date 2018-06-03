@@ -1,0 +1,12 @@
+<ion-view view-title="Popup">
+	<ion-content>
+		<div class="padding">
+			<button class="button button-positive button-outline" ng-click="showPopup()">Show</button>
+			<button class="button button-dark" ng-click="showConfirm()">Confirm</button>
+			<button class="button button-positive" ng-click="showAlert()">Alert</button>
+		</div>
+		<script id="popup-template.html" type="text/ng-template">
+			<input ng-model="data.wifi" type="text" placeholder="Password">
+		</script>
+	</ion-content>
+</ion-view>

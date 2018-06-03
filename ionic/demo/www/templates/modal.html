@@ -1,0 +1,20 @@
+<ion-view view-title="Modal">
+	<ion-content>
+		<div class="padding">
+			<button class="button button-positive button-outline" ng-click="show()">Show</button>
+		</div>
+	</ion-content>
+	<script id="templates/modal.html" type="text/ng-template">
+		<ion-modal-view>
+			<ion-header-bar>
+				<h1 class="title">My Modal</h1>
+				<button class="button button-clear" ng-click="hide()">Close</button>
+			</ion-header-bar>
+			<ion-content>
+				<div class="padding">
+					<h2>Hello!</h2>
+				</div>
+			</ion-content>
+		</ion-modal-view>
+	</script>
+</ion-view>

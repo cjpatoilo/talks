@@ -1,0 +1,71 @@
+/* Empty. Add your own CSS if you like */
+
+body {
+	cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+.bar.bar-header,
+.bar.bar-footer {
+	background: #0C63EE;
+}
+
+.bar .title,
+.bar .button {
+	color: #ffffff;
+}
+
+#home {
+	/*background: url(../img/ionic.svg) no-repeat center center/65% auto;*/
+}
+#home .scroll {
+	height: 100%;
+	min-height: 100%;
+}
+#home #logo {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 50%;
+	margin: -25% 0 0 -25%;
+	-webkit-animation: rotation 45s infinite linear;
+	animation: rotation 45s infinite linear;
+}
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+#icons li {
+	position: relative;
+	z-index: 0;
+	display: inline-block;
+	padding: 22px;
+	width: 42px;
+	border-radius: 4px;
+	list-style: none;
+	text-align: center;
+	font-weight: normal;
+	font-size: 32px;
+	cursor: pointer;
+}
+
+#grid .col-demo {
+	padding: 5px;
+	width: 100%;
+	border: 1px solid #DDD;
+	border-radius: 2px;
+	background: #F7F7F7;
+	text-align: center;
+}
+
+
+#spinner .spinner svg {
+	width: 49%;
+	height: 85px;
+}
+
+

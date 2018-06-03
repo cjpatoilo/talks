@@ -1,0 +1,62 @@
+<ion-side-menus enable-menu-with-back-views="false">
+
+	<ion-side-menu-content>
+		<ion-nav-bar class="bar-positive">
+			<ion-nav-back-button>
+			</ion-nav-back-button>
+			<ion-nav-buttons side="left">
+				<button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+				</button>
+			</ion-nav-buttons>
+			<ion-nav-buttons side="right">
+				<button class="button button-icon button-clear ion-ios-person" ng-click="profileModal.show()">
+				</button>
+			</ion-nav-buttons>
+		</ion-nav-bar>
+		<ion-nav-view name="menuContent">
+		</ion-nav-view>
+	</ion-side-menu-content>
+
+	<ion-side-menu side="left">
+		<ion-header-bar></ion-header-bar>
+		<ion-content>
+			<ion-list>
+				<ion-item menu-close ui-sref="app.home">Home</ion-item>
+				<ion-item menu-close ui-sref="app.content">Content</ion-item>
+				<ion-item menu-close ui-sref="app.button">Button</ion-item>
+				<ion-item menu-close ui-sref="app.list">List</ion-item>
+				<ion-item menu-close ui-sref="app.form">Form</ion-item>
+				<ion-item menu-close ui-sref="app.tab">Tab</ion-item>
+				<ion-item menu-close ui-sref="app.grid">Grid</ion-item>
+				<ion-item menu-close ui-sref="app.navigation">Navigation</ion-item>
+				<ion-item menu-close ui-sref="app.actionsheet">Action Sheet</ion-item>
+				<ion-item menu-close ui-sref="app.loading">Loading</ion-item>
+				<ion-item menu-close ui-sref="app.modal">Modal</ion-item>
+				<ion-item menu-close ui-sref="app.popover">Popover</ion-item>
+				<ion-item menu-close ui-sref="app.popup">Popup</ion-item>
+				<ion-item menu-close ui-sref="app.scroll">Scroll</ion-item>
+				<ion-item menu-close ui-sref="app.slidebox">Slide Box</ion-item>
+				<ion-item menu-close ui-sref="app.refresh">Pull to Refresh</ion-item>
+				<ion-item menu-close ui-sref="app.spinner">Spinner</ion-item>
+				<ion-item menu-close ui-sref="app.icon">Icon</ion-item>
+			</ion-list>
+		</ion-content>
+	</ion-side-menu>
+
+</ion-side-menus>
+
+<script id="templates/profile.html" type="text/ng-template">
+
+	<ion-modal-view>
+		<ion-header-bar>
+			<h1 class="title"></h1>
+			<button class="button button-clear" ng-click="profileModal.hide()">Close</button>
+		</ion-header-bar>
+		<ion-content>
+			<div class="padding">
+				<h2>Hello!</h2>
+			</div>
+		</ion-content>
+	</ion-modal-view>
+
+</script>
