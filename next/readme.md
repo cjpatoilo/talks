@@ -1,30 +1,41 @@
 # React Serve Side Render
 
-> React é mais conhecido como um framework JavaScript do lado do cliente, mas você sabia que pode (e talvez devesse!) renderizar o React do lado do servidor?
-> Nesta palestra, vou conduzi-lo através de exemplos de renderização do lado do servidor incluindo a apresentacação de uma case que faz uso de um roadblock comum para aplicativos React que falam com APIs.
 
 ## Table of Content
 
+- [Introducing](#Introducing)
 - [Motivation](#Motivation)
 - [Introducing Next.js](#Introducing Next.js)
 - [Hello World](#Hello World)
 - [Thank You](#Thank You)
 
-## Getting Started
 
-**Motivation**
+**Introducing**
 
-Desenvolver uma aplicação para ter uma case real mendindo a capacidade da ferramenta.
+> React é mais conhecido como um framework JavaScript do lado do cliente, mas você sabia que pode (e talvez devesse!) renderizar o React do lado do servidor?
+
+> Nesta palestra, vou conduzi-los através de exemplos de renderização do lado do servidor incluindo a apresentacação de uma case que faz uso de um roadblock comum para aplicativos React que falam com APIs.
+
+
+**Airform Overview**
+
+Desenvolvi uma aplicação para ter uma case real mendindo a capacidade da ferramenta e o resulto foi incrível.
+
+Para isso criei o Airform:
 
 O Airform oferece a capacidade de criar formulários HTML funcionais sem pensar em servidores.
 
 Mão a obra, por onde começar? Vamos entender como funciona a aplicação: Airform.
 
+
+**Learning Rendering**
+
 No diagrama podemos visualizar a linha do tempo para mostrar a diferença entre Server-side e Client-side Rendering.
 
 Note, podemos resumir que o maior diferencial está no instant loading.
 
-Over Engineered vs Under Engineered.
+Over Engineered (robusto) vs Under Engineered ()
+
 
 **Introducing Next.js**
 
@@ -57,6 +68,7 @@ Aqui há alguns recursos interessantes que o Next.js traz para a mesa:
 
 Parece ótimo, certo? Vamos ver na pratica.
 
+
 **Hello World**
 
 Execute os seguintes comandos:
@@ -83,4 +95,3 @@ export default () => 'Hello Next.js'
 // Now everything is ready. Run the following command to start the dev server:
 
 npm run dev
-
