@@ -9,7 +9,7 @@
 - [Twitter](https://twitter.com/cjpatoilo)
 - [LinkedIn](https://linkedin.com/in/cjpatoilo)
 - [Medium](https://medium.com/@cjpatoilo)
-- [Instagram](https://instagram.com/cjpatoilo)
+- [Email](mailto:cjpatoilo@gmail.com)
 
 
 ## License
