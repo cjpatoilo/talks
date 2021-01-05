@@ -2,15 +2,13 @@
 
 > Life Hacker based in Brazil. Engineer of things. Creator of Milligram and Airform.
 
-
 ## Follow me
 
-- [Github](https://github.com/cjpatoilo)
+- [GitHub](https://github.com/cjpatoilo)
 - [Twitter](https://twitter.com/cjpatoilo)
 - [LinkedIn](https://linkedin.com/in/cjpatoilo)
 - [Medium](https://medium.com/@cjpatoilo)
 - [Email](mailto:cjpatoilo@gmail.com)
-
 
 ## License
 

@@ -1,67 +1,132 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<title>React SSR</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
-		<link rel="stylesheet" href="css/custom.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-          <section data-background="img/01.png"></section>
-          <section data-background-video="img/03.mp4"></section>
-          <section data-background="img/02a.png"></section>
-          <section data-background="img/02b.png"></section>
-          <section data-background="img/02c.png"></section>
-          <section data-background="img/04.png"></section>
-          <section data-background="img/05.png"></section>
-          <section data-background="img/06a.png"></section>
-          <section data-background="img/06b.png"></section>
-          <section data-background="img/06c.png"></section>
-          <section data-background="img/06d.png"></section>
-          <section data-background="img/06e.png"></section>
-          <section data-background="img/06f.png"></section>
-          <section data-background="img/06g.png"></section>
-          <section data-background="img/06h.png"></section>
-          <section data-background="img/06i.png"></section>
-          <section data-background="img/06j.png"></section>
-          <section data-background="img/06l.png"></section>
-          <section data-background="img/06k.png"></section>
-          <section data-background="img/06m.png"></section>
-          <section data-background="img/07.png"></section>
-          <section data-background="img/08.png"></section>
-          <section data-background="img/09a.png"></section>
-          <section data-background="img/09b.png"></section>
-          <section data-background="img/09c.png"></section>
-          <section data-background="img/09d.png"></section>
-          <section data-background="img/10a.png"></section>
-          <section data-background="img/10b.png"></section>
-          <section data-background="img/10c.png"></section>
-          <section data-background="img/10d.png"></section>
-          <section data-background="img/11a.png"></section>
-          <section data-background="img/11b.png"></section>
-          <section data-background="img/11c.png"></section>
-          <section data-background="img/11d.png"></section>
-          <section data-background="img/11e.gif"></section>
-          <section data-background="img/12.png"></section>
-          <section data-background="img/13.png"></section>
-          <section data-background="img/14a.png"></section>
-          <section data-background="img/14b.png"></section>
-          <section data-background="img/14c.png"></section>
-          <section data-background="img/14d.png"></section>
-          <section data-background="img/14e.png"></section>
-          <section data-background="img/14f.png"></section>
-          <section data-background="img/16.png"></section>
-          <section data-background="img/17.png"></section>
-          <section data-background-video="img/18.mp4"></section>
-          <section data-background="img/19.png"></section>
-			</div>
-		</div>
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
-		<script src="js/custom.js"></script>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimal-ui"
+    />
+    <meta name="msapplication-TileColor" content="#efefef" />
+    <meta
+      name="msapplication-TileImage"
+      content="https://cjpatoilo.com/logo192.png"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#efefef" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Next.js - React Server Side Rendering"
+    />
+    <meta
+      name="application-name"
+      content="Next.js - React Server Side Rendering"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#efefef" />
+    <meta name="robots" content="index,follow" />
+    <meta name="author" content="Next.js - React Server Side Rendering" />
+    <meta
+      name="description"
+      content="In this talk, I will show you examples of server-side rendering including the presentation of a case that makes use of a roadblock for React applications using APIs."
+    />
+    <meta
+      property="og:description"
+      content="In this talk, I will show you examples of server-side rendering including the presentation of a case that makes use of a roadblock for React applications using APIs."
+    />
+    <meta property="og:image" content="img/01.png" />
+    <meta property="og:locale" content="en" />
+    <meta
+      property="og:site_name"
+      content="Next.js - React Server Side Rendering"
+    />
+    <meta property="og:title" content="Next.js - React Server Side Rendering" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta
+      property="article:author"
+      content="Next.js - React Server Side Rendering"
+    />
+    <meta property="article:section" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:domain"
+      content="Next.js - React Server Side Rendering"
+    />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:site" content="/" />
+    <meta
+      name="twitter:creator"
+      content="Next.js - React Server Side Rendering"
+    />
+    <meta
+      name="twitter:title"
+      content="Next.js - React Server Side Rendering"
+    />
+    <meta
+      name="twitter:description"
+      content="In this talk, I will show you examples of server-side rendering including the presentation of a case that makes use of a roadblock for React applications using APIs."
+    />
+    <meta name="twitter:image:src" content="img/01.png" />
+    <link rel="shortcut icon" href="https://cjpatoilo.com/favicon.png" />
+    <link rel="apple-touch-icon" href="https://cjpatoilo.com/logo192.png" />
+    <link rel="manifest" href="https://cjpatoilo.com/manifest.json" />
+    <title>Next.js - React Server Side Rendering</title>
+    <link rel="stylesheet" href="plugins/reveal.css" />
+    <link rel="stylesheet" href="plugins/custom.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background="img/01.png"></section>
+        <section data-background-video="img/03.mp4"></section>
+        <section data-background="img/02a.png"></section>
+        <section data-background="img/02b.png"></section>
+        <section data-background="img/02c.png"></section>
+        <section data-background="img/04.png"></section>
+        <section data-background="img/05.png"></section>
+        <section data-background="img/06a.png"></section>
+        <section data-background="img/06b.png"></section>
+        <section data-background="img/06c.png"></section>
+        <section data-background="img/06d.png"></section>
+        <section data-background="img/06e.png"></section>
+        <section data-background="img/06f.png"></section>
+        <section data-background="img/06g.png"></section>
+        <section data-background="img/06h.png"></section>
+        <section data-background="img/06i.png"></section>
+        <section data-background="img/06j.png"></section>
+        <section data-background="img/06l.png"></section>
+        <section data-background="img/06k.png"></section>
+        <section data-background="img/06m.png"></section>
+        <section data-background="img/07.png"></section>
+        <section data-background="img/08.png"></section>
+        <section data-background="img/09a.png"></section>
+        <section data-background="img/09b.png"></section>
+        <section data-background="img/09c.png"></section>
+        <section data-background="img/09d.png"></section>
+        <section data-background="img/10a.png"></section>
+        <section data-background="img/10b.png"></section>
+        <section data-background="img/10c.png"></section>
+        <section data-background="img/10d.png"></section>
+        <section data-background="img/11a.png"></section>
+        <section data-background="img/11b.png"></section>
+        <section data-background="img/11c.png"></section>
+        <section data-background="img/11d.png"></section>
+        <section data-background="img/11e.gif"></section>
+        <section data-background="img/12.png"></section>
+        <section data-background="img/13.png"></section>
+        <section data-background="img/14a.png"></section>
+        <section data-background="img/14b.png"></section>
+        <section data-background="img/14c.png"></section>
+        <section data-background="img/14d.png"></section>
+        <section data-background="img/14e.png"></section>
+        <section data-background="img/14f.png"></section>
+        <section data-background="img/16.png"></section>
+        <section data-background="img/17.png"></section>
+        <section data-background-video="img/18.mp4"></section>
+        <section data-background="img/19.png"></section>
+      </div>
+    </div>
+    <script src="plugins/reveal.js"></script>
+    <script src="plugins/custom.js"></script>
+  </body>
 </html>

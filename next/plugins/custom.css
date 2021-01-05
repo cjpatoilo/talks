@@ -1,0 +1,17 @@
+.reveal .slide-background {
+  background-size: auto 100%;
+}
+
+.slides section.has-dark-background,
+.slides section.has-dark-background h2 {
+  color: #fff;
+}
+.slides section.has-light-background,
+.slides section.has-light-background h2 {
+  color: #222;
+}
+.link {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
