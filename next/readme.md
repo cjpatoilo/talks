@@ -1,4 +1,6 @@
-# React Serve Side Render
+# Next.js - React server side rendering
+
+> In this talk, I will show you examples of server-side rendering including the presentation of a case that makes use of a roadblock for React applications using APIs.
 
 ## Table of Content
 
@@ -8,13 +10,13 @@
 - [Hello World](#Hello World)
 - [Thank You](#Thank You)
 
-**Introducing**
+## Introducing
 
 > React é mais conhecido como um framework JavaScript do lado do cliente, mas você sabia que pode (e talvez devesse!) renderizar o React do lado do servidor?
 
 > Nesta palestra, vou conduzi-los através de exemplos de renderização do lado do servidor incluindo a apresentacação de uma case que faz uso de um roadblock comum para aplicativos React que falam com APIs.
 
-**Airform Overview**
+## Airform Overview
 
 Desenvolvi uma aplicação para ter uma case real mendindo a capacidade da ferramenta e o resulto foi incrível.
 
@@ -24,7 +26,7 @@ O Airform oferece a capacidade de criar formulários HTML funcionais sem pensar 
 
 Mão a obra, por onde começar? Vamos entender como funciona a aplicação: Airform.
 
-**Learning Rendering**
+## Learning Rendering
 
 No diagrama podemos visualizar a linha do tempo para mostrar a diferença entre Server-side e Client-side Rendering.
 
@@ -32,7 +34,7 @@ Note, podemos resumir que o maior diferencial está no instant loading.
 
 Over Engineered (robusto) vs Under Engineered ()
 
-**Introducing Next.js**
+## Introducing Next.js
 
 Não é segredo que criar aplicativos JavaScript em 2018 pode ser bastante desafiador. Felizmente, existem alguns projetos incríveis que simplificam as coisas e ajudam você a produzir mais rapido.
 
@@ -63,7 +65,7 @@ Aqui há alguns recursos interessantes que o Next.js traz para a mesa:
 
 Parece ótimo, certo? Vamos ver na pratica.
 
-**Hello World**
+## Hello World
 
 Execute os seguintes comandos:
 

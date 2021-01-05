@@ -1,12 +1,8 @@
 ## Milligram - O primeiro passo mais leve.
 
-> Especialmente projetado para um melhor desempenho e maior produtividade, com menos propriedades para redefinir, resultando em um código mais limpo. Miligrama oferece uma configuração mínima de estilos para um ponto de partida rápido e limpo.
-
-#########################################################
+> Milligram provides a minimal setup of styles for a fast and clean starting point. Just it! Only 2kb gzipped! It’s not about a UI framework. Specially designed for better performance and higher productivity with fewer properties to reset resulting in cleaner code.
 
 # INTRO
-
-#########################################################
 
 ## APRESENTACAO PESSOAL
 
@@ -20,11 +16,7 @@
 - Hope
 - Milligram
 
-#########################################################
-
 # O QUE EU QUERIA FAZER
-
-#########################################################
 
 ## O INICIO
 
@@ -40,11 +32,7 @@ A primeira versao desse projeto não possuia todas as features que ele possui at
 
 "Mesmo que as pessoas digam para você não ficar tentando reinventar as coisas, eu acho que deveriam ser reinventadas porque vai lhe ensinar algo. Então mesmo que já existe algo por aí, mergulhe fundo naquele código, e talvez reescreva tudo aquilo, mesmo que for só para aprender." - TJ Halowaychuk
 
-#########################################################
-
 # O QUE EU FIZ
-
-#########################################################
 
 ## SUPPORT
 
@@ -68,11 +56,7 @@ A primeira versao desse projeto não possuia todas as features que ele possui at
 - Preprocessadores
 - Snippets
 
-#########################################################
-
 # O RESULTADO
-
-#########################################################
 
 ## EXPERIENCIA OPEN SOURCE
 
@@ -82,11 +66,7 @@ A primeira versao desse projeto não possuia todas as features que ele possui at
 
 ## RESULTADO (NUMEROS)
 
-#########################################################
-
 # O QUE EU IREI FAZER
-
-#########################################################
 
 ## ATUALMENTE
 
